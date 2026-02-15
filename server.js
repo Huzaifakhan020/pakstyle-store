@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-const dbURI = process.env.MONGO_URI || 'mongodb+srv://huzaifahmedkhan18_db_user:123456789@cluster8.y1pntr6.mongodb.net/pakstyle?retryWrites=true&w=majority';
+const dbURI = process.env.MONGO_URI || 'mongodb+srv://huzaifahmedkhan18_db_user:12345678900@cluster8.y1pntr6.mongodb.net/pakstyle?retryWrites=true&w=majority';
 
 mongoose.connect(dbURI)
   .then(() => console.log("Atlas MongoDB Connected"))
